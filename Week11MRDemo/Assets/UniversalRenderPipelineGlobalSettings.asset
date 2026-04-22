@@ -68,7 +68,23 @@ MonoBehaviour:
       - rid: 500907021601865761
       - rid: 500907021601865762
     m_RuntimeSettings:
-      m_List: []
+      m_List:
+      - rid: 500907021601865732
+      - rid: 500907021601865734
+      - rid: 500907021601865738
+      - rid: 500907021601865739
+      - rid: 500907021601865740
+      - rid: 500907021601865741
+      - rid: 500907021601865742
+      - rid: 500907021601865743
+      - rid: 500907021601865744
+      - rid: 500907021601865747
+      - rid: 500907021601865748
+      - rid: 500907021601865750
+      - rid: 500907021601865752
+      - rid: 500907021601865754
+      - rid: 500907021601865755
+      - rid: 500907021601865758
   m_AssetVersion: 10
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:
@@ -280,12 +296,12 @@ MonoBehaviour:
       type: {class: URPTerrainShaderSetting, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
-        m_IncludeTerrainShaders: 1
+        m_IncludeTerrainShaders: 0
     - rid: 500907021601865746
       type: {class: URPShaderStrippingSetting, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
-        m_StripUnusedPostProcessingVariants: 0
+        m_StripUnusedPostProcessingVariants: 1
         m_StripUnusedVariants: 1
         m_StripScreenCoordOverrideVariants: 1
     - rid: 500907021601865747
@@ -402,7 +418,7 @@ MonoBehaviour:
       type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_Version: 0
-        m_ExportShaderVariants: 1
+        m_ExportShaderVariants: 0
         m_ShaderVariantLogLevel: 0
         m_StripRuntimeDebugShaders: 1
     - rid: 500907021601865759
