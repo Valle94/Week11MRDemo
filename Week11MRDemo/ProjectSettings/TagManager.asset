@@ -30,6 +30,7 @@ TagManager:
   - QDSUIToggleCheckboxRadio
   - QDSUIBackplate
   - QDSUITextInputField
+  - Ball
   layers:
   - Default
   - TransparentFX
